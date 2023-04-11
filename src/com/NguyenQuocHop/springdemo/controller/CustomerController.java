@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/customer")
 public class CustomerController {
 	
-	@RequestMapping("/list")
-//	@RequestMapping("/")
+	@RequestMapping("/list")	
 	public String listCustomers(Model theModel) {
 		return "list-customers";
 	}
