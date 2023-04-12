@@ -1,4 +1,4 @@
-package com.NguyenQuocHop.spingdemo.service;
+package com.NguyenQuocHop.springdemo.service;
 
 import java.util.List;
 

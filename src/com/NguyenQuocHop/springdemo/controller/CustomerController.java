@@ -8,9 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.NguyenQuocHop.spingdemo.service.CustomerService;
 import com.NguyenQuocHop.springdemo.dao.CustomerDAO;
 import com.NguyenQuocHop.springdemo.entity.Customer;
+import com.NguyenQuocHop.springdemo.service.CustomerService;
 
 @Controller
 @RequestMapping("/customer")
